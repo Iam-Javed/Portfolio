@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sytle1.css">
+    <title>Portfolio | My Works</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <h1><a href="index.html"> Javedbasha</a></h1>
+        <div class="nav">
+            <span onclick="myFunction()">&#9776;</span>
+            <ul id="menu">
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="About Me.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="My Portfolio.html"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                <li><a href="My Services.html"><i class="fas fa-laptop-code    "></i></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/cart.jpg" alt="">
+                    <div class="layer">
+                        <h2>Smart Cart (Hardware Project)<i class="fa fa-cart-plus" aria-hidden="true"></i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/beanverse.jpg" alt="">
+                    <div class="layer">
+                        <h2>BeanVerse Coffee Website <i class="fas fa-coffee    "></i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="https://www.beanverse.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/travel.jpg" alt="">
+                    <div class="layer">
+                        <h2>Lets Travel Website <i class="fas fa-umbrella-beach    "></i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <a href="seemore.html" class="btn">See more</a>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu")
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

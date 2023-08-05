@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/sytle.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <h1><a href="index.html"> Javedbasha</a></h1>
+        <div class="nav">
+            <span onclick="myFunction()">&#9776;</span>
+            <ul id="menu">
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="About Me.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="My Portfolio.html"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                <li><a href="My Services.html"><i class="fas fa-laptop-code    "></i></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header class="container header active" id="home">
+            <div class="header-content">
+                <div class="left-header">
+                    <div class="image">
+                        <img src="images/iam1.jpg" alt="Javedbasha">
+                    </div>
+                </div>
+                <div class="right-header">
+                    <h1 class="name">
+                        Hi, I'm <span>Javedbasha</span>
+                    </h1>
+                    <h3 class="sub">
+                        Aspiring Software Developer.
+                    </h3>
+                    <p>
+                        I'm an Aspiring Software Developer, I love to create beautiful Projects and functional websites.
+                    </p>
+                    <div class="btn-con">
+                        <span class="duo"><a href="#" class="main-btn">Download Resume <span class="icon"><i class="fas fa-download    "></i></span></a></span>
+                    </div>
+                    <div class="btn-con">
+                        <span class="mid"><a href="mailto:skjavedbasha12@gmail.com" class="main-btn">Hire Me <span class="icon"><i class="fas fa-mail-bulk    "></i></span></a></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu")
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
