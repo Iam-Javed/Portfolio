@@ -5,7 +5,8 @@
   <a href="https://javedbasha.vercel.app/" target="_blank">Javedbasha.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="images/cart.jpg" />
+<img src="https://github.com/Iam-Javed/Portfolio/assets/106265348/9950c0b8-7946-4c45-ae42-d1c2fdbec3ed" alt="me">
+
 </div>
 
 <br/>
