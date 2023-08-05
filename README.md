@@ -29,7 +29,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Mr-J-2K01](https://github.com/Iam-Javed/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Iam-Javed](https://github.com/Iam-Javed/Portfolio). Thanks!
 
 ## Built With
 
