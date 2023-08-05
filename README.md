@@ -15,21 +15,21 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/Mr-J-2K01/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/Mr-J-2K01/Portfolio?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/Iam-Javed/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/Iam-Javed/Portfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/Mr-J-2K01/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/Iam-Javed/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/Mr-J-2K01/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/Iam-Javed/Portfolio/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Mr-J-2K01](https://github.com/Mr-J-2K01/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Mr-J-2K01](https://github.com/Iam-Javed/Portfolio). Thanks!
 
 ## Built With
 
