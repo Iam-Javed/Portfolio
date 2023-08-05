@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*nav-bar section*/
+
+body{
+    background-color: #191d2b;
+}
+.nav-bar{
+    background-color: #191d2b;
+    color: #fff;
+}
+
+.nav-bar h1 a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+
+
+ul li a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 20px;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+
+
+
+.nav-bar h1{
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+
+.nav span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* ----------SERVICES---------- */
+#services {
+    padding: 30px 0;
+    margin: 20px;
+}
+.container .sub-title{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background: white;
+    padding: 40px;
+    font-size: 15px;
+    line-height: 30 px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background 0.5s, transform 0.5s;
+}
+.services-list div a:hover{
+    transition: transform 2s;
+    color: red;
+}
+
+.services-list div:hover {
+    background: linear-gradient(125deg, #f2709c,#ff9472);
+    transform: translateY(-10px);
+    transition: background 0.5s, transform 0.5s;
+}
+
+
+@media only screen and (max-width:700px) {
+    .nav{
+        padding: 10px;
+        margin: 0;
+    }
+    .nav span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}

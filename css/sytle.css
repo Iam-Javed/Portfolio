@@ -1,0 +1,234 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*nav-bar section*/
+
+
+.nav-bar{
+  background-color: #191d2b;
+    color: #fff;
+}
+.nav-bar h1 a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    
+}
+
+
+ul li a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 20px;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+
+
+
+.nav-bar h1{
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+
+.nav span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+  
+  /*Header-content*/
+  .main-content{
+    background-color: #191d2b;
+  }
+  .header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+  }
+  .header-content .left-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .header-content .left-header .image {
+    border-radius: 50%;
+    height: 70%;
+    width: 48%;
+    margin-left: 4rem;
+  }
+  .header-content .left-header .image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .header-content .right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 18rem;
+    margin-bottom: 100px;
+  }
+  .header-content .right-header .name {
+    font-size: 3rem;
+    color: white;
+  }
+  .header-content .right-header .sub {
+    color: white;
+  }
+  .header-content .right-header p {
+    margin: 1.5rem 0;
+    line-height: 2rem;
+    text-align: justify;
+    color: white;
+  }
+
+
+
+.btn-con {
+    display: flex;
+    align-self: flex-start;
+  }
+.btn-con a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.main-btn {
+    border-radius: 30px;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid white ;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
+    margin: 5px;
+    transition: background 0.5s, transform 0.5s;
+}
+.main-btn .icon{
+    margin-left: 10px;
+}
+.main-btn:hover{
+  background: linear-gradient(125deg, #283048, #859398);
+    color: black;
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .nav{
+        padding: 10px;
+        margin: 0;
+    }
+    .nav span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .header {
+        padding: 0 !important;
+      }
+    
+      .theme-btn {
+        width: 50px;
+        height: 50px;
+      }
+    
+      .header-content {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+      }
+    
+      .left-header .h-shape {
+        display: none;
+      }
+    
+      .right-header {
+        grid-row: 1;
+        padding-right: 0rem !important;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .right-header .name {
+        font-size: 2.5rem !important;
+        text-align: center;
+        padding-top: 3rem;
+      }
+    
+      .header-content .left-header .image {
+        margin: 0 auto;
+        height: 100%;
+        width: 80%;
+
+      }
+      .header-content .left-header .image img{
+        margin-top: 5px;
+        margin-left: 2.6rem;
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .header-content .right-header .sub {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-weight: normal;
+      }
+      .btn-con{
+        margin-left: 80px;
+      }
+      .btn-con .mid{
+        margin-left: 40px;
+        margin-top: 10px;
+      }
+      .btn-con .duo{
+        margin-top: 30px;
+      }
+}
+body{
+  background-color: #191d2b;
+}

@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*nav-bar section*/
+
+
+.nav-bar{
+    background-color: #191d2b;
+    color: #fff;
+}
+
+.nav-bar h1 a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+
+
+ul li a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 20px;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+
+
+
+.nav-bar h1{
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+
+.nav span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.my-edu div:hover {
+    background: linear-gradient(125deg, orange,yellow);
+    transform: translateY(-10px);
+}
+.my-edu div {
+    background: white;
+    padding: 40px;
+    font-size: 15px;
+    line-height: 30 px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+/*   about scetion    */
+
+#aboutme{
+    background-color: #191d2b;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+.about{
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.about p{
+    padding: 5px;
+    margin: 10px;
+}
+hr{
+    border: 1px solid rgba(128, 128, 128, 0.589);
+}
+
+
+/*   Education section   */
+
+
+#education{
+    background-color: #191d2b;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#education h2{
+    padding: 10px;
+    color: white;
+    font-weight: 80px;
+    font-weight: bold;
+}
+
+
+.my-edu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.edu {
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+
+.edu img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.more {
+    font-weight: bold;
+}
+.btn {
+    display:inline-block;
+    background-color: dodgerblue !important;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: red !important;
+}
+
+#skills{
+    background-color: #191d2b;
+    text-align: center;
+    padding: 20px;
+}
+#skills h2{
+    padding: 10px;
+    color: white;
+    font-weight: 80px;
+    font-weight: bold;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.my-skill {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.btn-btn {
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+#back{
+    background-color: #191d2b;
+}
+#back a i{
+    background-color: wheat;
+    color: black;
+    margin-left: 1200px;
+    border-radius: 50%;
+
+}
+
+.skill:hover .skill1 {
+    transform: scale(1.1);
+    
+}
+
+
+@media only screen and (max-width:700px) {
+    .nav{
+        padding: 10px;
+        margin: 0;
+    }
+    .nav span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    #back a i{
+        overflow: hidden;
+        margin-left: 200px;
+    }
+}
