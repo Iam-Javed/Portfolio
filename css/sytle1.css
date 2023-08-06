@@ -73,6 +73,10 @@ ul li a:hover{
 .container h1{
     text-align: center;
     color: white;
+    font-size: 50px;
+}
+.container .sub-title span{
+    color: goldenrod;
 }
 
 .work-list {
