@@ -20,10 +20,6 @@
   text-decoration: none;
 }
 
-.nav-bar h1 a img{
-  width: 5%;
-  mix-blend-mode: multiply;
-}
 
 .nav{
     text-align: right;
@@ -88,8 +84,8 @@ ul li a:hover{
 
   .header-content .left-header .image {
     
-    height: 70%;
-    width: 48%;
+    height: 100%;
+    width: 100%;
     margin-left: 4rem;
     
   }
