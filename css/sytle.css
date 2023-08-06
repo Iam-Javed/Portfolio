@@ -162,7 +162,7 @@ ul li a:hover{
 
 
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:1500px) {
     .nav{
         padding: 10px;
         margin: 0;
