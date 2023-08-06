@@ -161,9 +161,7 @@ ul li a:hover{
     color: black;
 }
 
-
-
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width:700px) {
     .nav{
         padding: 10px;
         margin: 0;
@@ -176,7 +174,9 @@ ul li a:hover{
     }
     ul{
         display: none;
-    }
+            }
+
+@media only screen and (max-width:1500px) {
     .header {
         padding: 0 !important;
       }
@@ -187,10 +187,7 @@ ul li a:hover{
       }
     
       .header-content {
-        grid-template-columns: repeat(1, 2fr);
-        padding-bottom: 6rem;
-      }
-    
+        grid-template-columns: repeat(1, 1fr);   
       .left-header .h-shape {
         display: none;
       }
