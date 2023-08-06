@@ -1,4 +1,4 @@
-/* Google Font CDN Link */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -36,6 +36,16 @@ body {
   justify-content: center;
   margin-top: 15px;
   position: relative;
+}
+.container .home a i:hover{
+  color: goldenrod;
+}
+.container .back:hover{
+  cursor: pointer;
+  color: goldenrod;
+}
+a:hover{
+  color: goldenrod;
 }
 .content .left-side::before {
   content: "";
@@ -90,10 +100,13 @@ body {
   margin-left: 75px;
 }
 .content .right-side .topic-text {
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 600;
   color: rgb(143, 35, 53);
   margin-top: 20px;
+}
+.right-side .topic-text span{
+  color: goldenrod;
 }
 .content .right-side p{
   margin-top: 10px;
