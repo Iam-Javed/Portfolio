@@ -188,7 +188,7 @@ ul li a:hover{
       }
     
       .header-content {
-        grid-template-columns: repeat(2, 2fr);   
+        grid-template-columns: repeat(2, 1fr) !important;   
       .left-header .h-shape {
         display: none;
       }
