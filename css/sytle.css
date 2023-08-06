@@ -94,14 +94,13 @@ ul li a:hover{
     height:100%;
     object-fit: cover;
     margin-left: 50px;
-    margin-top: 30px;
+    
   }
   .header-content .right-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 18rem;
-    margin-bottom: 100px;
   }
   .header-content .right-header .name {
     font-size: 3rem;
