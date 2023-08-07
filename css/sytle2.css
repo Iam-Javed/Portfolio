@@ -27,7 +27,7 @@ body{
 
 .nav{
     text-align: right;
-    margin-right: 40px;
+    margin-right: 70px;
 }
 
 
@@ -201,7 +201,7 @@ hr{
 }
 
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width:955px) {
     .nav{
         padding: 10px;
         margin: 0;
