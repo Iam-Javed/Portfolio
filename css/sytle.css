@@ -185,6 +185,7 @@ ul li a:hover{
     .row .right .content{
       padding-left: 0;
       margin-left: 20px;
+       margin-top: 0;
     }
     .row{
       width: 90%;
