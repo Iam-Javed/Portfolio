@@ -39,6 +39,9 @@ body{
     text-align: right;
     margin-right: 90px;
 }
+.nav h1 a img{
+    display:none;
+}
 .nav-bar h1 a{
   margin-left: 20px;
 }
@@ -191,6 +194,10 @@ ul li a:hover{
     }
     .mid{
       margin-bottom: 20px;
+    }
+    .nav h1 a img{
+        width: 20px;
+        border-radius:50%;
     }
 }
 
