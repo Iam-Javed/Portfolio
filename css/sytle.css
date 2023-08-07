@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    background-color:#191d2b;
 }
 
+
+body{
+  background-color: #191d2b;
+  
+}
 
 /*nav-bar section*/
 
@@ -14,24 +18,30 @@
 .nav-bar{
   background-color: #191d2b;
     color: #fff;
+    margin-top: 10px;
 }
+
+.nav-bar h1{
+  float: left;
+  height: 45px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .nav-bar h1 a{
   cursor: pointer;
   color: white;
   text-decoration: none;
 }
 
-.nav-bar h1 a img{
-  width: 5%;
-  mix-blend-mode: multiply;
-}
 
 .nav{
     text-align: right;
-    margin-right: 40px;
+    margin-right: 150px;
 }
-
-
+.nav-bar h1 a{
+  margin-left: 20px;
+}
 
 ul li{
     display: inline-block;
@@ -39,7 +49,6 @@ ul li{
     list-style: none;
     
 }
-
 
 ul li a{
     color: #fff;
@@ -50,17 +59,6 @@ ul li a:hover{
     color: goldenrod;
 }
 
-
-
-.nav-bar h1{
-    float: left;
-    height: 45px;
-    margin-right: 20px;
-    margin-left: 20px;
-
-}
-
-
 .nav span{
     margin: 0 20px;
     font-size: 28px;
@@ -68,52 +66,63 @@ ul li a:hover{
     display: none;
 }
 
+/* Row*/
 
-/*Header-content*/
-.header-content {
+
+.row{
+  width: 80%;
+  max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
-}
-.header-content .left-header {
-  display: flex;
-  align-items: center;
-  position: relative;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px 30px;
 }
 
-.header-content .left-header .image {
-  border-radius: 20px;
-  height: 90%;
-  width: 68%;
-  margin-left: 4rem;
-  background-color: #191d2b;
-  transition: all 0.4s ease-in-out;
+/* Left side*/
+
+
+.row .left{
+  overflow: hidden;
+  margin: 50px;
+  padding: 30px;
 }
-.header-content .left-header .image img {
+.row .left img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: all 0.4s ease-in-out;
   border-radius: 10px;
-  /*filter: grayscale(100%);*/
+  object-fit: cover;
+  margin-top: 30px;
 }
 
-.header-content .right-header {
+/*Right side */
+
+
+.row .right{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 18rem;
+  align-items: center;
+  
 }
-.header-content .right-header .name {
-  font-size: 3rem;
+.row .right .content{
+  padding-left: 40px;
 }
-.header-content .right-header .name span {
+
+.right .content .name{
+  color: white;
+}
+.name span{
   color: goldenrod;
 }
-.header-content .right-header p {
-  margin: 1.5rem 0;
-  line-height: 2rem;
+.right .content .sub{
+  color: white;
+  font-weight: normal;
 }
+.right .content p{
+  color: white;
+  margin-top: 15px;
+  padding: 3px;
+}
+
+/* button*/
+
 
 .btn-con {
     display: flex;
@@ -122,8 +131,6 @@ ul li a:hover{
 .btn-con a{
     text-decoration: none;
     color: white;
-    
-    
     font-family: "Poppins", sans-serif;
     justify-content: space-evenly;
     padding: 10px;
@@ -147,11 +154,14 @@ ul li a:hover{
   background-color: goldenrod;
     color: black;
 }
+.content .duo{
+  margin-top: 50px;
+}
+
+/* Small Screen*/
 
 
-    
-
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:955px) {
     .nav{
         padding: 10px;
         margin: 0;
@@ -165,52 +175,23 @@ ul li a:hover{
     ul{
         display: none;
     }
-@media screen and (max-width: 600px) {
-  header {
-    padding: 0 !important;
-  }
-
-  .theme-btn {
-    width: 50px;
-    height: 50px;
-  }
-
-  .header-content {
-    grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
-  }
-
-  .left-header .h-shape {
-    display: none;
-  }
-
-  .right-header {
-    grid-row: 1;
-    padding-right: 0rem !important;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .right-header .name {
-    font-size: 2.5rem !important;
-    text-align: center;
-    padding-top: 3rem;
-  }
-
-  .header-content .left-header .image {
-    margin: 0 auto;
-    width: 90%;
+    .header {
+        padding: 0 !important;
     }
-      .btn-con{
-        margin-left: 80px;
-      }
-      .btn-con .mid{
-        margin-left: 40px;
-        margin-top: 10px;
-      }
-      .btn-con .duo{
-        margin-top: 30px;
-      }
+    .row .right .content{
+      padding-left: 0;
+      margin-left: 20px;
+    }
+    .row{
+      width: 90%;
+      grid-template-columns: 1fr;
+    }
+    .row .left img{
+      border-radius: 10px;
+    }
+    .mid{
+      margin-bottom: 20px;
+    }
 }
-body{
-  background-color: #191d2b !important;
-}
+
+
