@@ -78,7 +78,6 @@ ul li a:hover{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 50px 30px;
-    margin-top:50px;
 }
 
 /* Left side*/
@@ -193,6 +192,7 @@ ul li a:hover{
     }
     .row .left img{
       border-radius: 10px;
+        margin-top:0;
     }
     .mid{
       margin-bottom: 20px;
