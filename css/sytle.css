@@ -39,8 +39,8 @@ body{
     text-align: right;
     margin-right: 70px;
 }
-.nav h1 a img{
-    display:none;
+.nav h1 a span{
+    color:goldenrod;
 }
 .nav-bar h1 a{
   margin-left: 20px;
