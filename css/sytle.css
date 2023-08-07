@@ -202,6 +202,9 @@ ul li a:hover{
         width: 20px;
         border-radius:50%;
     }
+    .nav-bar h1 a{
+          margin-left: 10px;
+}
 }
 
 
