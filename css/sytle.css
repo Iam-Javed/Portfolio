@@ -73,11 +73,11 @@ ul li a:hover{
 
 
 .row{
-  width: 80%;
-  max-width: 1170px;
+  width: 100%;
+  max-width: 1500px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-gap: 50px 30px;
+  grid-gap: 50px 50px;
 }
 
 /* Left side*/
