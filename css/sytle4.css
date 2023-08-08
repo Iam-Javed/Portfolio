@@ -10,70 +10,89 @@
 
 /*nav-bar section*/
 
-body{
-    background-color: #191d2b;
-}
-.nav-bar{
-    background-color: #191d2b;
-    color: #fff;
-}
-
-.nav-bar h1 a{
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
-}
-
-.nav{
-    text-align: right;
-    margin-right: 70px;
-}
-
-
-
-ul li{
-    display: inline-block;
-    margin: 20px;
-    list-style: none;
-}
-
-
-ul li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 20px;
-}
-ul li a:hover{
+.active{
     color: goldenrod;
-}
+  }
 
 
-
-.nav-bar h1{
+.nav-bar{
+     background-color:transparent;
+    backdrop-filter: blur(20px);
+      color: #fff;
+      margin-bottom: 10px;
+      box-shadow: 0px 5px 5px rgba(0 0 0/0.2);
+  }
+  
+  .nav-bar h1{
     float: left;
     height: 45px;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 10px;
-
-}
-
-
-.nav span{
-    margin: 0 20px;
-    font-size: 28px;
+    margin-top: 7px;
+  }
+  
+  .nav-bar h1 a{
     cursor: pointer;
-    display: none;
-}
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .nav{
+      text-align: right;
+      margin-right: 150px;
+  }
+  .nav-bar h1 a{
+    margin-left: 20px;
+    
+  }
+  .nav-bar h1 a span{
+    color: goldenrod;
+  }
+  
+  ul li{
+      display: inline-block;
+      margin: 20px;
+      list-style: none;
+      
+  }
+  
+  ul li a{
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+  }
+  ul li a:hover{
+      color: goldenrod;
+  }
+
+  ul li a:active{
+    font-size: 15px;
+    transition: .3s;
+  }
+  
+  .nav span{
+      margin: 0 20px;
+      font-size: 28px;
+      cursor: pointer;
+      display: none;
+  }
 
 
 /* ----------SERVICES---------- */
 .my-service div:hover {
-    background: linear-gradient(125deg, orange,yellow);
+    background: linear-gradient(125deg, hotpink,goldenrod);
     transform: translateY(-10px);
+    color: black !important;
 }
 .my-service div {
-    background: white;
+    background-color:transparent;
+    backdrop-filter: blur(50px);
+    color: #fff;
+    border: .3px solid grey;
+    margin: 50px;
+    box-shadow: 0px 5px 5px rgba(0 0 0/0.2);
     padding: 40px;
     
     line-height: 30 px;
@@ -85,7 +104,6 @@ ul li a:hover{
 
 
 #service{
-    background-color: #191d2b;
     text-align: center;
     padding: 20px;
 }
@@ -113,7 +131,7 @@ ul li a:hover{
     width: 300px;
     padding: 5px;
     margin: 20px;
-    background-color: #f2f2f2;
+    background-color: transparent;
     border-radius: 5px;
 }
 .ser i{
@@ -126,18 +144,22 @@ ul li a:hover{
 }
 .my-service .ser h2{
     text-align: center;
-    color: black;
+    color: white;
 }
 .my-service .ser a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 .my-service .ser a:hover{
-    color: red;
+    color: black;
 }
 
-@media only screen and (max-width:955px) {
+.ser a{
+    color: black;
+}
+
+@media only screen and (max-width:1500px) {
     .nav{
         padding: 10px;
         margin: 0;
@@ -147,6 +169,7 @@ ul li a:hover{
     }
     ul li{
         display: block;
+        text-align: center;
     }
     ul{
         display: none;
