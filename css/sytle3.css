@@ -9,7 +9,6 @@
 body {
   min-height: 100vh;
   width: 100%;
-  background: #191d2b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +16,9 @@ body {
 .container {
   max-width: 1100px;
   width: 100%;
-  background: #fff;
+  background: transparent;
+  backdrop-filter: blur(50px);
+  border: .3px solid grey;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -63,37 +64,39 @@ a:hover{
 }
 .content .left-side .details i {
   font-size: 30px;
-  color: rgb(143, 35, 53);
+  color: goldenrod;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic {
   font-size: 18px;
   font-weight: 500;
+  color: white;
 }
 .content .left-side .details .text-one,
 .content .left-side .details .text-two {
   font-size: 14px;
   color: #afafb6;
 }
-.content .left-side .details .text-one a,
-.content .left-side .details .text-two a{
-  text-decoration: none;
-  color: blue;
-  display: flex;
+.content .left-side .details .text-one a{
+  display: inline-block;
+  justify-content: space-evenly;
   align-items: center;
   
 }
 
+
 .content .left-side .details .topic .text-one{
-  background-color: black;
-  color: black;
+  background-color: white;
+  color: white;
 }
-.content .left-side .details .text-one a:hover{
+.content .left-side .details .text-one a img:hover{
   color:rgb(143, 35, 53) ;
 }
-.content .left-side .details .text-two a:hover{
-  color:rgb(143, 35, 53) ;
+a{
+  text-decoration: none;
+  color: gold;
 }
+
 
 .container .content .right-side {
   width: 75%;
@@ -102,7 +105,7 @@ a:hover{
 .content .right-side .topic-text {
   font-size: 30px;
   font-weight: 600;
-  color: rgb(143, 35, 53);
+  color: white;
   margin-top: 20px;
 }
 .right-side .topic-text span{
@@ -110,6 +113,7 @@ a:hover{
 }
 .content .right-side p{
   margin-top: 10px;
+  color: #afafb6;
 }
 .right-side .input-box {
   height: 55px;
@@ -121,12 +125,12 @@ a:hover{
   margin-left: 95%;
   font-size: large;
   font-weight: bold;
-  color:rgb(143, 35, 53) ;
+  color:white ;
 }
 .container .back{
   margin-left: 96.3%;
   font-size: 0.7rem;
-  color: rgb(143, 35, 53);
+  color: white;
   font-weight: bold;
 }
 .content .right-side form{
@@ -139,10 +143,12 @@ a:hover{
   border: none;
   outline: none;
   font-size: 16px;
-  background: #f0f1f8;
+  background: transparent;
+  border: .3px solid grey;
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
+  color: white;
 }
 .right-side .message-box {
   min-height: 110px;
