@@ -14,11 +14,15 @@ body{
 
 /*nav-bar section*/
 
-
+.active{
+  color: goldenrod;
+}
 .nav-bar{
-  background-color: #191d2b;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
     color: #fff;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px rgba(0 0 0/0.2);
 }
 
 .nav-bar h1{
@@ -26,24 +30,27 @@ body{
   height: 45px;
   margin-right: 20px;
   margin-left: 20px;
+  margin-top: 7px;
 }
 
 .nav-bar h1 a{
   cursor: pointer;
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 
 .nav{
     text-align: right;
-    margin-right: 70px;
+    margin-right: 150px;
+}
+.nav-bar h1 a{
+  margin-left: 20px;
+  
 }
 .nav-bar h1 a span{
   color: goldenrod;
-}
-.nav-bar h1 a{
-  margin-left: 10px;
 }
 
 ul li{
@@ -57,9 +64,15 @@ ul li a{
     color: #fff;
     text-decoration: none;
     padding: 20px;
+    transition: .5s;
 }
 ul li a:hover{
     color: goldenrod;
+}
+
+ul li a:active{
+  font-size: 15px;
+  transition: .3s;
 }
 
 .nav span{
@@ -67,8 +80,8 @@ ul li a:hover{
     font-size: 28px;
     cursor: pointer;
     display: none;
+    
 }
-
 /* Row*/
 
 
@@ -93,7 +106,7 @@ ul li a:hover{
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 /*Right side */
@@ -106,7 +119,6 @@ ul li a:hover{
 }
 .row .right .content{
   padding-left: 40px;
-    margin-top: 80px;
 }
 
 .right .content .name{
@@ -140,6 +152,7 @@ ul li a:hover{
     padding: 10px;
 }
 .main-btn {
+   backdrop-filter: blur(50px);
     border-radius: 30px;
     font-weight: 600;
     position: relative;
@@ -175,6 +188,7 @@ ul li a:hover{
     }
     ul li{
         display: block;
+        text-align: center;
     }
     ul{
         display: none;
@@ -185,7 +199,6 @@ ul li a:hover{
     .row .right .content{
       padding-left: 0;
       margin-left: 20px;
-       margin-top: 0;
     }
     .row{
       width: 90%;
@@ -193,18 +206,10 @@ ul li a:hover{
     }
     .row .left img{
       border-radius: 10px;
-        margin-top:0;
     }
     .mid{
       margin-bottom: 20px;
     }
-    .nav h1 a img{
-        width: 20px;
-        border-radius:50%;
-    }
-    .nav-bar h1 a{
-          margin-left: 10px;
-}
 }
 
 
