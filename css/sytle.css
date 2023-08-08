@@ -6,8 +6,14 @@
     font-family: "Poppins", sans-serif;
 }
 
-
-
+body{
+    background-image:url("images/bg3.jpg") ;
+    width: 100%;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;"
+}
 
 /*nav-bar section*/
 
