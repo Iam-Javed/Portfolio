@@ -5,7 +5,13 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-
+head, html, body{
+    background: url('images/bg3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /*nav-bar section*/
