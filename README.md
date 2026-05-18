@@ -2,7 +2,7 @@
 
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://javedbasha.vercel.app/" target="_blank">Javedbasha.tech</a>
+  <a href="https://javed-devops-portfolio.vercel.app/" target="_blank">Javedbasha.tech</a>
 </h2>
 <div align="center">
 <img src="https://github.com/Iam-Javed/Portfolio/assets/106265348/28322d16-c13a-4f06-82b2-f9273a4e9096" alt="me">
