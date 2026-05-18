@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Phosphor";
+    src: url("./Phosphor.woff2") format("woff2"),
+      url("./Phosphor.woff") format("woff"),
+      url("./Phosphor.ttf") format("truetype"),
+      url("./Phosphor.svg#Phosphor") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.ph {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "Phosphor" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ph.ph-paper-plane:before {content: "\ec46"}
+.ph.ph-arrow-right:before {content: "\e95c"}
+.ph.ph-arrow-left:before {content: "\e953"}
+.ph.ph-download-simple:before {content: "\eab6"}
+.ph.ph-share-network:before {content: "\ecd1"}
+.ph.ph-shield-warning:before {content: "\ecd9"}
+.ph.ph-pencil-line:before {content: "\ec58"}
+.ph.ph-paper-plane-tilt:before {content: "\ec48"}
+.ph.ph-list:before {content: "\ebca"}
+.ph.ph-magnifying-glass:before {content: "\ebdd"}
+.ph.ph-x:before {content: "\eddb"}
+.ph.ph-sliders:before {content: "\ecf5"}
+.ph.ph-check-circle:before {content: "\ea31"}
+.ph.ph-x-circle:before {content: "\eddc"}
+.ph.ph-bookmark-simple:before {content: "\e9c5"}
+.ph.ph-spinner-gap:before {content: "\ed17"}
+.ph.ph-calendar:before {content: "\e9e3"}
